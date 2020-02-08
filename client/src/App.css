@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  /* background-image: url(MenuBackgroundQuest.jpg); */
+  /* padding: 330px; */
+  /* height: 100%; */
+}
+
+
+
+.Menu {
+  background-image: url(MenuBackgroundQuest.jpg) ;
+  background-size: cover;
+  min-height: 55pc;
+  min-width: 1024px;
+}
+
+.Maze {
+  background-image: url(brickMazeCorners.png) ;
+  /* background-size: cover;
+  min-height: 54pc;
+  min-width: 1024px;
+  padding-top: 30px; */
+  height: 54pc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Deadend {
+  background-image: url(deadend.png);
+  height: 54pc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.Center {
+  background-image: url(WizardRoom.jpg);
+  height: 54pc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.Martin{ 
+  margin-top: 45px;
+}
+
+.OldMan{
+  width: 500px;
+}
+
+.Door{
+  width: 400px;
+}
+
+.Icon {
+  height: 20px;
+  width: 20px;
+}
