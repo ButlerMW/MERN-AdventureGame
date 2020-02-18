@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import Chat from './components/Chat'
+import Tutorial from './views/Tutorial'
 import Menu from './views/Menu'
 import Maze1 from './views/Maze1'
 import Maze2 from './views/Maze2'
@@ -43,6 +44,7 @@ function App() {
     <div className="App">
       <Router>
         <Menu path="/" adventure1Done={adventure1Done} />
+        <Tutorial path="/tutorial" />
         <Maze1 path="/maze" />
         <Maze2 path="/maze/2" />
         <Maze3 path="/maze/3" />
